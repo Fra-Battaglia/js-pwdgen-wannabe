@@ -15,6 +15,8 @@ console.log(favourite_color);
 
 // 4 - Concatenare le informazioni e aggiungere a fine stringa il numero 21
 
-document.getElementById('your-password').innerHTML = first_name + last_name + favourite_color + '21';
+let generated_password = first_name + last_name + favourite_color + '21';
+console.log(generated_password);
+document.getElementById('your-password').innerHTML = generated_password;
 
 // 5 - Visualizzare il risultato
